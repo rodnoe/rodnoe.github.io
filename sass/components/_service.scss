@@ -1,0 +1,104 @@
+#service{
+	background-color: #eee;
+	float: left;
+	display: inline;
+	padding: 70px 0;
+	width: 100%;
+}
+.service_area{
+	display: inline;
+	float: left;
+	width: 100%;
+}
+.service-content{
+	display: inline;
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+}
+.service-table{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.single-service {
+	display: inline;
+	float: left;
+	padding: 45px 20px;
+	position: relative;
+	text-align: left;
+	width: 100%;
+	-w-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.single-service:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	bottom: 0;
+	height: 24px;
+	width: 100%;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.single-service:hover:after{
+	opacity: 1;
+}
+.single-service:hover{
+	background-color: #fff;
+}
+.service-name {
+    float: left;
+    width: 200px;
+    margin-right: 80px;
+}
+.service-text {
+    float: left;
+    max-width: 600px;
+}
+.single-service .service-icon{
+	color: #bdbdbd;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+.single-service .service-title {
+	color: #343333;
+	font-size: 25px;
+	font-weight: 600;
+    margin-top: 0;
+	margin-bottom: 20px;
+}
+.single-service p{
+    font-size: 14px;
+    font-weight: 600;
+	color: #878787;
+}
+.single-service ul{
+    font-size: 14px;
+	color: #878787;
+}
+.single-service li{
+    position: relative;
+    padding-left: 12px;
+}
+.single-service li::before{
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: $green;
+}
+.single-service .button {
+    margin-left: 0;
+    margin-bottom: 0;
+}

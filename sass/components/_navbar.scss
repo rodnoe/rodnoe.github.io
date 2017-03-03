@@ -1,0 +1,101 @@
+#navbar {
+	float: left;
+	width: 83%;
+}
+.main-nav {
+	display: inline-block;
+	text-align: right;
+	width: 100%;
+}
+.main-nav li {
+	display: inline-block;
+	float: none;
+}
+.main-nav li a {
+	color: #636363;
+	font-size: 15px;
+	padding: 39px 20px;
+	text-transform: uppercase;
+}
+.less-padding{
+	padding: 30px 20px !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #636363;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  pointer-events: none;
+  color: $green;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: $green;
+}
+.search-area {
+	display: inline-block;
+	float: right;
+	height: 60px;
+	padding: 0;
+	position: relative;
+	width: 5%;
+}
+.search-area input[type="text"] {
+	height: 100%;
+	font-size: 20px;
+	display: inline-block;
+	font-weight: 100;
+	border: none;
+	outline: none;
+	line-height: 20px;
+	color: #555;
+	padding: 3px 60px 0px 3px;
+	width: 0px;
+	position: absolute;
+	top: 11%;
+	right: 0;
+	background: none;
+	z-index: 3;
+	-webkit-transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+	        transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+	cursor: pointer;
+}
+.search-area input[type="text"]:focus {
+	width: 880px;
+	z-index: 1;
+	background-color: #fff;
+	cursor: text;
+}
+.search-area input[type="submit"] {
+	background-image: url("assets/images/search-icon.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: medium none;
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	height: 35px;
+	outline: medium none;
+	position: absolute;
+	right: 0;
+	text-indent: -10000px;
+	top: 53%;
+	-webkit-transition: opacity 0.4s ease 0s;
+	      transition: opacity 0.4s ease 0s;
+	width: 45px;
+	z-index: 2;
+}
+.search-area input[type="submit"]:hover {
+  opacity: 0.8;
+}

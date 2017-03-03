@@ -43,3 +43,4 @@ Thumbs.db
 .idea/
 node_modules/
 _design/
+build/

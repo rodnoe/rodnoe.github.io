@@ -1,0 +1,63 @@
+#error-page {
+	background-color: #CEFFFE;
+	display: inline;
+	float: left;
+	padding: 150px 0;
+	width: 100%;
+}
+.error-page-area {
+	display: block;
+	margin: 0 auto;
+	width: 670px;
+}
+.error-no-area {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	padding: 20px;
+	width: 100%;
+}
+.error-no {
+	display: inline;
+	float: left;
+	padding: 50px;
+	text-align: center;
+	width: 100%;
+}
+.error-no h2 {
+	color: #727272;
+	font-family: "Open Sans",sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.error-no p {
+	font-family: "Pacifico",cursive;
+	font-size: 80px;
+	margin-bottom: 0;
+	-webkit-transform: rotate(-20deg);
+	    -ms-transform: rotate(-20deg);
+	        transform: rotate(-20deg);
+}
+.error-message {
+	display: inline;
+	float: left;
+	margin-top: 70px;
+	text-align: center;
+	width: 100%;
+}
+.error-message h4 {
+	color: #4b8181;
+	font-family: "Pacifico",cursive;
+	font-size: 65px;
+	line-height: 65px;
+	margin-bottom: 50px;
+}
+.error-message p {
+	color: #4b8181;
+	font-size: 30px;
+	padding: 0 138px;
+}
+.error-message p a{
+	color: #4b8181;
+}
