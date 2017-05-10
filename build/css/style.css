@@ -9109,16 +9109,16 @@ Author URI : http://www.markups.io/
   background-color: #55c16f; }
 
 .button-default {
-  border: 2px solid #ff5722 !important;
-  color: #ff5722 !important; }
+  border: 2px solid #f8bf4d !important;
+  color: #f8bf4d !important; }
 
 .button-default:hover {
-  border-color: #ff5722; }
+  border-color: #f8bf4d; }
 
 .button-default:hover,
 .button-default:focus {
-  border-color: #ff5722;
-  background-color: #ff5722 !important; }
+  border-color: #f8bf4d;
+  background-color: #f8bf4d !important; }
 
 .introduction-btn {
   background-color: rgba(85, 193, 111, 0.8); }
@@ -9542,6 +9542,10 @@ img {
   opacity: 0;
   transform: translate3d(0, -25%, 0); }
 
+.video {
+  margin: 0 auto 5em;
+  display: block; }
+
 #footer {
   background-color: #242424;
   display: inline;
@@ -9629,7 +9633,7 @@ img {
   width: 100%;
   min-height: 800px;
   max-height: 70vh;
-  background: #55c16f url(/img/bg-min.jpg) no-repeat;
+  background: #57524f url(/img/bg-min.jpg) no-repeat;
   background-size: cover;
   background-position: center; }
 
@@ -9656,7 +9660,7 @@ img {
   width: 100%; }
 
 .header-content h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 80px;
   font-weight: bold;
   line-height: 1.4;
@@ -9672,10 +9676,22 @@ img {
   color: #fff; }
 
 .header-btn {
-  margin: 0 auto;
+  float: initial;
   display: block;
-  background-color: #ff5722 !important;
-  color: #fff !important; }
+  max-width: 250px;
+  margin: 50px auto 0;
+  padding: 12px 21px;
+  background-color: #f8bf4d !important;
+  color: #535353 !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  background-image: none;
+  transition: background-image 0.4s ease-out; }
+  .header-btn:focus, .header-btn:hover {
+    color: #535353 !important;
+    background-image: linear-gradient(to top, #55c16f 0%, #f8bf4d 100%);
+    border: none; }
 
 .knowmore-btn:hover,
 .knowmore-btn:focus,
