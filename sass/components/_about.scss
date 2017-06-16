@@ -1,9 +1,32 @@
 #about{
     background-color: #fff;
+    background-image: url(/img/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 140px 0;
     float: left;
     display: inline;
     width: 100%;
+    min-height: 100vh;
+}
+
+#activity {
+    background-image: url(/img/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+#location {
+    background-image: url(/img/bg-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+#service {
+    background-image: url(/img/bg-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 .welcome-area {
     float: left;

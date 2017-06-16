@@ -1,10 +1,14 @@
 #contacts{
-	background: linear-gradient(90deg, #55c16f 0%, #3b9768 100%);
+    background: linear-gradient(90deg, #55c16f 0%, #3b9768 100%);
+    background-image: url(/img/bg-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
     color: #fff;
-	display: inline;
-	padding: 70px 0;
-	float: left;
-	width: 100%;
+    display: inline;
+    padding: 70px 0;
+    float: left;
+    width: 100%;
 
     .tittle {
         color: #fff;
@@ -15,13 +19,13 @@
     }
 }
 .contacts-area{
-	display: inline;
-	float: left;
-	width: 100%;
+    display: inline;
+    float: left;
+    width: 100%;
 }
 .contacts-form {
     width: 100%;
-	max-width: 600px;
+    max-width: 600px;
     margin: 140px auto 0;
     padding: 0 30px 30px 30px;
 }

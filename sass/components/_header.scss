@@ -2,9 +2,10 @@
     width: 100%;
     min-height: 800px;
     max-height: 70vh;
-    background: #57524f url(/img/bg-min.jpg) no-repeat;
+    background: #57524f url(/img/heading-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
 }
 .header-inner{
     position: relative;
@@ -21,6 +22,10 @@
     background-color: rgba(0, 0, 0, 0.1);
     min-height: 800px;
     width: 100%;
+}
+.header-title img {
+    display: block;
+    margin: 0 auto;
 }
 .header-content {
     height: 100%;
@@ -40,7 +45,7 @@
 }
 .header-content h2 span {
     //font-family: 'Open Sans', sans-serif;
-    font-size: 90px;
+    font-size: 0;
     font-weight: 900;
     line-height: 1.4;
     letter-spacing: 12px;

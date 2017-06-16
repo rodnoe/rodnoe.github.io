@@ -1,39 +1,39 @@
 #menu-area{
-	float: left;
-	display: inline;
-	width: 100%;
+    float: left;
+    display: inline;
+    width: 100%;
 }
 .main-navbar {
-	background: #fff none repeat scroll 0 0;
-	border-radius: 0;
-	border-bottom: 1px solid #e7e7e7;
-	border-right: medium none;
-	height: 100px;
-	margin-bottom: 0;
-	-webkit-box-shadow: 0px 2px 4px 0px #f3f3f3;
-	-moz-box-shadow: 0px 2px 4px 0px #f3f3f3;
-	box-shadow: 0px 2px 4px 0px #f3f3f3;
+    background: #fff none repeat scroll 0 0;
+    border-radius: 0;
+    border-bottom: 1px solid #e7e7e7;
+    border-right: medium none;
+    height: 100px;
+    margin-bottom: 0;
+    -webkit-box-shadow: 0px 2px 4px 0px #f3f3f3;
+    -moz-box-shadow: 0px 2px 4px 0px #f3f3f3;
+    box-shadow: 0px 2px 4px 0px #f3f3f3;
 }
 .navbar-fixed-top{
-	height: 80px;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
+    height: 80px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .logo {
-	height: 100px;
-	width: 85px;
-	margin-right: 45px;
-	margin-top: -1px;
-	padding: 0;
+    height: 100px;
+    width: 85px;
+    margin-right: 45px;
+    margin-top: -1px;
+    padding: 0;
 }
 .logo-compressed {
-	height: 80px;
-	width: 70px;
+    height: 80px;
+    width: 70px;
 }
 .logo img {
-	height: 100%;
-	width: 100%;
+    width: 100%;
+    height: auto;
 }

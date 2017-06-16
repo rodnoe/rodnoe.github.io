@@ -9314,10 +9314,32 @@ img {
 
 #about {
   background-color: #fff;
+  background-image: url(/img/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 140px 0;
   float: left;
   display: inline;
-  width: 100%; }
+  width: 100%;
+  min-height: 100vh; }
+
+#activity {
+  background-image: url(/img/bg-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh; }
+
+#location {
+  background-image: url(/img/bg-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh; }
+
+#service {
+  background-image: url(/img/bg-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh; }
 
 .welcome-area {
   float: left;
@@ -9633,9 +9655,10 @@ img {
   width: 100%;
   min-height: 800px;
   max-height: 70vh;
-  background: #57524f url(/img/bg-min.jpg) no-repeat;
+  background: #57524f url(/img/heading-bg.jpg) no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  min-height: 100vh; }
 
 .header-inner {
   position: relative;
@@ -9653,6 +9676,10 @@ img {
   min-height: 800px;
   width: 100%; }
 
+.header-title img {
+  display: block;
+  margin: 0 auto; }
+
 .header-content {
   height: 100%;
   padding: 100px 140px 140px;
@@ -9669,7 +9696,7 @@ img {
   text-shadow: 0 7px 23px black; }
 
 .header-content h2 span {
-  font-size: 90px;
+  font-size: 0;
   font-weight: 900;
   line-height: 1.4;
   letter-spacing: 12px;
@@ -9731,8 +9758,8 @@ img {
   width: 70px; }
 
 .logo img {
-  height: 100%;
-  width: 100%; }
+  width: 100%;
+  height: auto; }
 
 #navbar {
   float: left;
@@ -11506,6 +11533,10 @@ img {
 
 #contacts {
   background: linear-gradient(90deg, #55c16f 0%, #3b9768 100%);
+  background-image: url(/img/bg-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
   color: #fff;
   display: inline;
   padding: 70px 0;
@@ -12396,8 +12427,6 @@ img {
   .header-content h2{
     font-size: 35px;
     line-height: 35px; }
-  .header-content h2 span{
-    font-size: 66px; }
   .knowmore-btn{
     font-size: 15px;
     padding: 15px 18px; }
@@ -12924,8 +12953,6 @@ img {
   .header-content{
     padding: 30px; }
   .header-content h2{
-    font-size: 25px; }
-  .header-content h2 span{
     font-size: 25px; }
   .header-btn-area{
     margin-top: 00px; }
