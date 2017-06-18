@@ -1,0 +1,101 @@
+.card {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 11px 16px;
+  background-color: rgba(#000, .2);
+  color: #fff;
+  font-family: $font;
+  @include clearfix;
+
+  &:nth-of-type(2) {
+    margin-top: 26px;
+  }
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+}
+
+.card-title {
+  font-family: $font;
+  width: 268px;
+  height: 91px;
+  margin: 0 auto 25px;
+  padding-top: 16px;
+  background: url(/img/section-heading.png) no-repeat;
+  background-size: 100%;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-text {
+  font-weight: 300;
+}
+
+.card-inner {
+  @include clearfix;
+  padding: 16px;
+  background-color: rgba(#000, .3);
+}
+
+.card-btn {
+  float: right;
+  height: 40px;
+  padding: 0 34px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 21px;
+  background-color: #d4b808;
+  color: #083600;
+  text-transform: uppercase;
+  transform: translateX(23px);
+}
+
+.card--service::before {
+  top: -50px;
+  left: -37px;
+  width: 120px;
+  height: 147px;
+  background: url(/img/sun.png) no-repeat;
+  background-size: 100%;
+}
+
+.card--house::before {
+  top: -36px;
+  left: -63px;
+  width: 142px;
+  height: 147px;
+  background: url(/img/house.png) no-repeat;
+  background-size: 100%;
+}
+
+.card--greens::before {
+  top: -36px;
+  left: -95px;
+  width: 210px;
+  height: 111px;
+  background: url(/img/greens.png) no-repeat;
+  background-size: 100%;
+}
+
+.card--location {
+  margin-bottom: 26px;
+}
+
+.card--location::before {
+  top: 40px;
+  left: calc(50% - 61px);
+  width: 122px;
+  height: 59px;
+  background: url(/img/land.png) no-repeat;
+  background-size: 100%;
+}
+
+.map {
+  width: 100%;
+}

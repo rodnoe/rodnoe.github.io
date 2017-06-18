@@ -24,6 +24,7 @@
     width: 100%;
 }
 .header-title img {
+    max-width: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -53,23 +54,21 @@
 }
 .header-btn{
     float: initial;
-    display: block;
-    max-width: 250px;
-    margin: 50px auto 0;
-    padding: 12px 21px;
-    background-color: $purple !important;
-    color: $dark-gray !important;
+    display: inline-block;
+    height: 40px;
+    padding: 0 34px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: rgba(2, 175, 5, 0.65);
     text-transform: uppercase;
-    font-weight: 600;
-    font-size: 15px;
-    background-image: none;
-    transition: background-image 0.4s ease-out;
 
-    &:focus,
-    &:hover {
-        color: $dark-gray !important;
-        background-image: linear-gradient(to top, #55c16f 0%, #f8bf4d 100%);
-        border: none;
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: #fff;
     }
 }
 .knowmore-btn:hover,

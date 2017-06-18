@@ -57,3 +57,7 @@ img{
     text-decoration: none;
     color: $green;
 }
+
+section {
+  @include clearfix;
+}

@@ -1,3 +1,14 @@
 $green: #55c16f;
 $purple: rgb(248, 191, 77);
 $dark-gray: #535353;
+$color-text: #083600;
+
+$font: 'Roboto Condensed', 'Arial', sans-serif;
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
