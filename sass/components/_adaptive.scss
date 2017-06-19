@@ -98,125 +98,15 @@
     .header-content h2 {
       font-size: 66px;
     }
-    .knowmore-btn {
-      font-size: 16px;
-      padding: 18px 20px;
-    }
-    .download-btn {
-      font-size: 16px;
-      padding: 18px 20px;
-    }
     .header-btn-area {
       margin-top: 20px;
     }
     #navbar {
       width: 86%;
     }
-    .search-area {
-      width: 3%;
-    }
     .main-nav li a {
       font-size: 14px;
       padding: 15px 7px;
-    }
-    .less-padding {
-      padding: 15px 7px !important;
-    }
-    .search-area input[type="text"]:focus {
-      width: 630px;
-    }
-    .single-wc-content .wc-tittle {
-      font-size: 15px;
-    }
-    .about-left {
-      height: 328px;
-      width: 100%;
-    }
-    .about-left img {
-      width: 100%;
-    }
-    .about-right .tittle {
-      padding-bottom: 10px;
-      font-size: 28px;
-    }
-    .about-right .tittle-line {
-      margin-bottom: 15px;
-    }
-    .about-right p {
-      font-size: 14px;
-      margin-bottom: 6px;
-    }
-    .about-btn-area {
-      margin-top: 0;
-    }
-    .call-to-content h2 {
-      font-size: 30px;
-    }
-    .team-grid li {
-      height: 170px;
-      margin: 20px 10px;
-      width: 21%;
-    }
-    .team-info p {
-         font-size: 10px;
-    }
-    .team-info a {
-      font-size: 15px;
-      height: 25px;
-      width: 25px;
-    }
-    .team-address p {
-      font-size: 16px;
-    }
-    .team-address span {
-      font-size: 14px;
-    }
-    .title-area {
-      padding: 0 100px;
-    }
-    .single-portfolio {
-      width: 22.5%;
-    }
-    .portfolio-social-icon {
-          padding: 85px 50px;
-    }
-    .portfolio-title h4 {
-      font-size: 13px;
-    }
-    .counter-area {
-      padding: 90px 0;
-    }
-    .single-counter {
-      margin-bottom: 35px;
-    }
-    .single-price .price-amount {
-          font-size: 25px;
-    }
-    .single-price p {
-          font-size: 15px;
-    }
-    .single-price a span {
-      padding: 12px 35px;
-    }
-    .single-from-blog {
-      margin-bottom: 30px;
-    }
-    .blog-right {
-      margin-top: 25px;
-    }
-    .instagram-feed .slick-prev {
-      left: 40%;
-    }
-    .instagram-feed .slick-next {
-      right: 41%;
-    }
-    .error-message h4 {
-      font-size: 50px;
-      line-height: 50px;
-    }
-    .error-message p {
-      font-size: 25px;
-      padding: 0 50px;
     }
 }
 
@@ -226,13 +116,9 @@
       font-size: 35px;
       line-height: 35px;
     }
-    .knowmore-btn {
-      font-size: 15px;
-      padding: 15px 18px;
-    }
-    .download-btn {
-      font-size: 15px;
-      padding: 15px 18px;
+    .contacts-text-field {
+        width: 100%;
+        margin-right: 0;
     }
     .main-nav li {
       display: block;
@@ -242,9 +128,6 @@
     .main-nav li a {
       display: block;
       padding: 8px 7px;
-    }
-    .less-padding {
-      padding: 8px 7px !important;
     }
     #navbar {
       margin-right: 0;
@@ -274,16 +157,6 @@
         background-color: #fff;
 
     }
-    .search-area {
-      left: -3px;
-      top: -100px;
-      width: 3%;
-    }
-    .search-area input[type="text"]:focus {
-      height: 36px;
-      top: 31px !important;
-      width: 550px;
-    }
     .navbar-fixed-top .search-area{
         top: -77px;
     }
@@ -293,93 +166,16 @@
     .navbar-fixed-top .search-area input[type="text"]:focus {
       top: 23px !important;
     }
-    .wc-table li {
-      margin-bottom: 20px;
-      width: 50%;
-    }
     #about {
       padding: 50px 0 50px;
-    }
-    .about-left {
-      width: 96%;
-    }
-    .about-left img {
-      height: 100%;
-      width: 100%;
-    }
-    .about-right {
-      margin-top: 35px;
-      padding-left: 0;
     }
     .welcome-area__text {
         font-size: 18px;
     }
-    .title-area {
-      padding: 0 50px;
-    }
-    .call-to-content h2 {
-      font-size: 28px;
-    }
-    .team-grid li {
-      height: 230px;
-      margin: 20px 25px 70px;
-      width: 38%;
-    }
-    .team-img-1, .team-img-2, .team-img-3, .team-img-4 {
-      background-position: center center;
-      background-size: 100% auto;
-    }
-    .team-info {
-      padding: 30px 18px;
-    }
-    .team-info p {
-      font-size: 15px;
-    }
-    .single-portfolio {
-      width: 30.3%;
-    }
-    .button-default::after, .button-default > span {
-      padding: 12px 8px;
-      font-size: 12px;
-    }
-    .single-slide > p {
-      font-size: 15px;
-      line-height: 28px;
-      margin-top: 37px;
-    }
-    .contact-left {
-      margin-bottom: 30px;
-    }
-    #blog-banner {
-      margin-top: -60px;
-    }
-    .instagram-feed .slick-prev {
-      left: 39%;
-    }
-    .instagram-feed .slick-next {
-      right: 40%;
-    }
-    #error-page {
-      padding: 100px 0;
-    }
-    .error-page-area {
-      width: 500px;
-    }
-    .error-message h4 {
-      font-size: 35px;
-      line-height: 35px;
-    }
-    .error-message p {
-      font-size: 20px;
-      padding: 0 45px;
-    }
-
-
 }
 
 @media(max-width:480px ){
-    #header,
-    .header-overlay {
+    #header {
         min-height: 500px;
     }
     .header-content {
@@ -388,140 +184,9 @@
     .header-content h2 {
       font-size: 32px;
     }
-    .knowmore-btn {
-      font-size: 14px;
-      padding: 10px 15px;
-    }
-    .download-btn {
-      font-size: 14px;
-      padding: 10px 15px;
-    }
     #navbar {
       width: 106%;
     }
-    .title-area {
-      padding: 0 15px;
-    }
-    .search-area input[type="text"] {
-      font-size: 15px;
-    }
-    .search-area input[type="text"]:focus {
-        height: 35px;
-        top: 32px !important;
-        width: 350px;
-    }
-    .call-to-content h2 {
-      font-size: 20px;
-    }
-    .team-grid {
-      padding: 0 75px;
-    }
-    .team-grid li {
-      height: 300px;
-      margin: 20px 0 70px;
-      width: 100%;
-    }
-    .team-info {
-      padding: 70px 18px;
-    }
-    .team-info p {
-      font-size: 18px;
-    }
-    .single-portfolio {
-      margin-left: 8px;
-      width: 100%;
-    }
-    #counter img {
-      height: 354px;
-      width: 100%;
-    }
-    .counter-area {
-      padding: 40px 0;
-    }
-    .single-counter > span {
-      font-size: 50px;
-      text-align: center;
-      width: 100%;
-    }
-    .single-counter .counter-count {
-      margin-left: 0;
-      margin-top: 20px;
-      text-align: center;
-      width: 100%;
-    }
-    .single-price .price-header {
-      font-size: 20px;
-      padding: 10px 0;
-    }
-    .single-price .price-header::after {
-      bottom: -43%;
-    }
-    .standard-price .price-header {
-      padding: 20px 0;
-    }
-    .standard-price .price-header::after {
-      bottom: -32%;
-    }
-    .single-price .price-amount {
-      font-size: 16px;
-    }
-    .single-price p {
-      font-size: 14px;
-    }
-    .single-price a span {
-      padding: 12px 20px;
-    }
-    .button-default::after, .button-default > span {
-      font-size: 10px;
-    }
-    .single-slide {
-      padding: 0 100px;
-    }
-    .single-slide > p {
-      font-size: 14px;
-      line-height: 26px;
-      margin-top: 20px;
-    }
-    .single-slide > p::after {
-      font-size: 40px;
-      top: -10px;
-    }
-    .testimonial-thumb {
-      margin: 20px auto 0;
-    }
-    .client-table {
-      padding-left: 30px;
-    }
-    .instagram-feed .slick-prev {
-      left: 34%;
-    }
-    .instagram-feed .slick-next {
-      right: 35%;
-    }
-    #error-page {
-      padding: 80px 0;
-    }
-    .error-page-area {
-      width: 350px;
-    }
-    .error-no {
-      padding: 20px;
-    }
-    .error-no h2 {
-      font-size: 45px;
-    }
-    .error-no p {
-      font-size: 50px;
-    }
-    .error-message h4 {
-      font-size: 35px;
-      line-height: 35px;
-    }
-    .error-message p {
-      font-size: 20px;
-      padding: 0 45px;
-    }
-
 }
 
 
@@ -543,273 +208,21 @@
     .header-btn-area {
       margin-top: 00px;
     }
-
     .header-btn-area a {
       display: block;
       margin: 10px 15px;
     }
-    .knowmore-btn {
-      font-size: 14px;
-      padding: 7px 8px;
-    }
-    .download-btn {
-      font-size: 14px;
-      padding: 7px 8px;
-    }
     #navbar {
       width: 108.3%;
-    }
-    .title-area {
-      padding: 0 10px;
-    }
-    .tittle {
-      font-size: 20px;
-      padding-bottom: 5px;
-    }
-    .title-area p{
-        font-size: 14px;
-    }
-    .search-area input[type="text"] {
-      font-size: 14px;
-    }
-    .search-area input[type="text"]:focus {
-        height: 35px;
-        top: 32px !important;
-        width: 250px;
-    }
-    .wc-table li {
-      margin-bottom: 20px;
-      width: 100%;
-    }
-    .about-right {
-      margin-top: 45px;
-    }
-    .about-right .tittle {
-      font-size: 20px;
-      padding-bottom: 5px;
-    }
-    .about-right .tittle-line {
-      width: 60px;
-    }
-    .call-to-content h2 {
-      font-size: 20px;
-    }
-    .team-grid {
-      padding: 0 55px;
-    }
-    .team-grid li {
-      height: 220px;
-    }
-    .team-info {
-      padding: 20px 10px;
-    }
-    .team-info p {
-      font-size: 14px;
-    }
-    .portfolio-container {
-      margin-left: 0;
-    }
-    .portfolio-menu ul li {
-      font-size: 12px;
-      margin: 0 7px 5px;
-      padding: 8px;
-    }
-    .single-portfolio {
-      width: 100%;
-      margin-left: 0px;
-    }
-    .portfolio-social-icon {
-      padding: 105px 50px;
-    }
-    #counter img {
-      height: 354px;
-      width: 100%;
-    }
-    .counter-area {
-      padding: 40px 0;
-    }
-    .single-counter > span {
-      font-size: 40px;
-    }
-    .single-counter .counter-count > span {
-      font-size: 30px;
-    }
-    .single-counter .counter-count > p {
-      font-size: 12px;
-    }
-    .price-table li {
-      margin-bottom: 20px;
-      width: 100%;
-      border: 1px solid #e4e4e4;
-    }
-    .single-price a span {
-      font-size: 14px;
-    }
-    .single-price .price-amount {
-      font-size: 16px;
-    }
-    .single-price p {
-      font-size: 14px;
-    }
-    .button-default::after, .button-default > span {
-      font-size: 14px;
-    }
-    .standard-price {
-      margin-top: 0;
-    }
-    .single-slide {
-      padding: 0 50px;
-    }
-    .introduction-btn {
-      font-size: 20px;
     }
     .header-content h2 {
       margin-bottom: 10px;
     }
-    .contact-left h2, .contact-right h2 {
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-    .single-address h4 {
-      font-size: 18px;
-    }
-    .single-address p {
-      font-size: 13px;
-    }
-    .contact-right {
-      padding: 30px 20px;
-    }
-    .contact-form .form-group input {
-      font-size: 16px;
-      height: 40px;
-    }
-    .footer-social a {
-      font-size: 15px;
-      height: 40px;
-      line-height: 40px;
-      margin: 0 5px;
-      width: 40px;
-    }
-    .blog-archive .single-from-blog figure img {
-      height: 250px;
-    }
-    .instagram-feed .slick-prev {
-      left: 26%;
-    }
-    .instagram-feed .slick-next {
-      right: 27%;
-    }
-    .single-widget h2 {
-      font-size: 20px;
-      line-height: 20px;
-    }
-    .blog-pagination > li > a,
-    .blog-pagination > li > span {
-      padding: 6px 15px;
-    }
-    .follow-us a {
-      font-size: 15px;
-      height: 32px;
-      line-height: 32px;
-      margin: 0 2px;
-      width: 32px;
-    }
-    .blog-details-content {
-      padding: 25px;
-    }
-    .blog-comment {
-      padding: 0 25px 40px;
-    }
-    .blog-details-content blockquote {
-      font-size: 18px;
-      margin-bottom: 30px;
-      margin-top: 30px;
-    }
-    #error-page {
-      padding: 60px 0;
-    }
-    .error-page-area {
-      width: 250px;
-    }
-    .error-no {
-      padding: 20px;
-    }
-    .error-no h2 {
-      font-size: 35px;
-    }
-    .error-no p {
-      font-size: 40px;
-    }
-    .error-message h4 {
-      font-size: 25px;
-      line-height: 20px;
-    }
-    .error-message p {
-      font-size: 16px;
-      padding: 0 15px;
-    }
-
-
-
 }
 
 
 @media(max-width:320px ){
-    .search-area input[type="text"]:focus {
-        width: 210px;
-    }
-    .search-area input[type="text"] {
-      font-size: 12px;
-    }
     #navbar {
       width: 109%;
-    }
-    .team-grid {
-      padding: 0 35px;
-    }
-    .team-info {
-      padding: 25px 10px;
-    }
-    .footer-social a {
-      font-size: 14px;
-      height: 35px;
-      line-height: 35px;
-      margin: 0 2px;
-      width: 35px;
-    }
-    .footer-bottom p {
-      font-size: 15px;
-    }
-    .blog-archive .single-from-blog figure img {
-      height: 200px;
-    }
-    .instagram-feed .slick-prev {
-      left: 23%;
-    }
-    .instagram-feed .slick-next {
-      right: 24%;
-    }
-    .blog-pagination > li > a,
-    .blog-pagination > li > span {
-      padding: 4px 13px;
-    }
-    .follow-us a {
-      font-size: 14px;
-      height: 30px;
-      line-height: 30px;
-      margin: 0 2px;
-      width: 30px;
-    }
-    .popular-post-widget .media-left {
-      margin-right: 0;
-      text-align: center;
-      width: 100%;
-      margin-bottom: 15px;
-    }
-    .popular-post-widget .media-left a{
-        display: inline-block;
-    }
-    .popular-post-widget .media-body {
-      text-align: center;
     }
 }

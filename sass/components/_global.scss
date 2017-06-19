@@ -1,0 +1,35 @@
+.video {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    margin-bottom: 50px;
+}
+
+#activity {
+    background-image: url(/img/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 140px 0;
+    border-bottom: 10px solid $color-text;
+}
+#location {
+    background-image: url(/img/bg-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 140px 0;
+    border-bottom: 10px solid $color-text;
+
+}
+#service {
+    float: initial !important;
+    display: block !important;
+    background-image: url(/img/bg-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 140px 0;
+    border-bottom: 10px solid $color-text;
+}

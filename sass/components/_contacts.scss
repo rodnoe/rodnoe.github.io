@@ -1,35 +1,30 @@
 #contacts{
-    background: linear-gradient(90deg, #55c16f 0%, #3b9768 100%);
     background-image: url(/img/bg-6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0;
-    color: #fff;
-    display: inline;
     padding: 70px 0;
-    float: left;
     width: 100%;
-
-    .tittle {
-        color: #fff;
-    }
-
-    .tittle-line {
-        background-color: #fff;
-    }
+    min-height: 100vh;
 }
 .contacts-area{
     display: inline;
     float: left;
     width: 100%;
 }
+.contacts-title {
+    font-family: $font;
+    font-size: 36px;
+    font-weight: 400;
+    color: $color-text;
+    text-align: center;
+}
 .contacts-form {
     width: 100%;
     max-width: 600px;
-    margin: 140px auto 0;
+    margin: 30px auto 30px;
     padding: 30px;
-    padding-top: 0;
-    background-color: rgba(0, 103, 2, 0.59);
+    background-color: rgba(91, 162, 47, 0.8);
 }
 .contacts-text-field {
     width: 47%;
@@ -38,10 +33,9 @@
     border: none;
     outline: none;
     background-color: #fff;
-    //border-bottom: 2px solid $green;
     height: 40px;
     padding-left: 15px;
-    color: #3a3a3a;
+    color: $color-text;
 }
 .contacts-text-field:first-child {
     margin-right: 28px;
@@ -51,11 +45,6 @@
     height: initial;
     padding-top: 10px;
     resize: none;
-    //border: 2px solid $green;
-}
-.contacts-text-field:hover,
-.contacts-text-field:focus {
-    //background-color: #eee;
 }
 .contacts-btn {
     float: initial !important;
@@ -70,17 +59,11 @@
     cursor: pointer;
     color: #fff;
     transform: none;
-
-    // &:hover,
-    // &:focus {
-    //     border: none;
-    //     color: $green;
-    // }
 }
 
 .contacts-email {
   font-size: 26px;
-  color: #083600;
+  color: $color-text;
   text-align: center;
   margin: 0 auto;
   display: block;
