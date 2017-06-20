@@ -19,6 +19,18 @@
     color: $color-text;
     text-align: center;
 }
+
+.contacts-text {
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+
+    &--form {
+        margin-bottom: 26px;
+        color: #fff;
+    }
+}
 .contacts-form {
     width: 100%;
     max-width: 600px;
@@ -37,7 +49,8 @@
     padding-left: 15px;
     color: $color-text;
 }
-.contacts-text-field:first-child {
+.contacts-text-field:first-child,
+.contacts-text-field:nth-of-type(3) {
     margin-right: 28px;
 }
 .contacts-text-field.whole {
@@ -45,11 +58,22 @@
     height: initial;
     padding-top: 10px;
     resize: none;
+
+    &:first-child {
+        height: 40px;
+        padding-top: 0;
+    }
+}
+
+.contacts-text-field.full {
+    width: 100%;
+    height: 40px;
+    padding-top: 0;
 }
 .contacts-btn {
     float: initial !important;
-    width: 100%;
-    height: 45px;
+    display: block;
+    height: 60px;
     margin: 0 auto;
     padding: 0 15px;
     border: none;

@@ -1,9 +1,9 @@
-$green: #55c16f;
+$green: rgba(5, 156, 8, 0.65);
 $purple: rgb(248, 191, 77);
 $dark-gray: #535353;
 $color-text: #083600;
 
-$font: 'Roboto Condensed', 'Arial', sans-serif;
+$font: 'Roboto Condensed', 'Arial', 'Helvetica', sans-serif;
 
 @mixin clearfix {
   &:after {

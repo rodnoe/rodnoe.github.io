@@ -33,3 +33,24 @@
     padding: 140px 0;
     border-bottom: 10px solid $color-text;
 }
+
+.green-btn{
+    float: initial;
+    display: inline-block;
+    height: 60px;
+    padding: 0 34px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: rgba(2, 175, 5, 0.65);
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: #fff;
+      background-color: rgba(5, 156, 8, 0.65);
+    }
+}

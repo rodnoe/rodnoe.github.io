@@ -24,7 +24,7 @@
                 <span>Родное</span>
                 <img src="/img/rodnoe.png" alt="Родное">
             </h2>
-            <a href="article.html" class="header-btn">
+            <a href="article.html" class="header-btn  green-btn">
                 Присоединиться
             </a>
         </div>
@@ -46,11 +46,13 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
                         <li class="active"><a href="index.html">Главная</a></li>
-                        <li><a href="#">Усадьба</a></li>
-                        <li><a href="#">Труд в экопоселении</a></li>
-                        <li><a href="#">Юридические вопросы</a></li>
-                        <li><a href="#">Место</a></li>
-                        <li><a href="#contacts">Контакты</a></li>
+                        <li><a href="wellbeing.html">НаРождение</a></li>
+                        <li><a href="about.html">О Проекте</a></li>
+                        <li><a href="location.html">Местоположение</a></li>
+                        <li><a href="important.html">Особенности</a></li>
+                        <li><a href="shahovskaya.html">о Шаховской</a></li>
+                        <li><a href="possibility.html">возможности</a></li>
+                        <li><a href="index.html#contacts">Контакты</a></li>
                     </ul>
                 </div>
             </div>
@@ -155,14 +157,19 @@
     <section id="contacts">
         <div class="container">
             <div class="contacts-area clearfix">
-                <h2 class="contacts-title">Стать участником проекта</h2>
+                <p class="contacts-text">Желаете создать своё родовое поместье? <br>Жить в гармонии с природой в кругу единомышленников?</p>
+                <h2 class="contacts-title">Мы ждём именно Вас!</h2>
                 <!-- form -->
                 <div class="contacts-form">
+                    <p class="contacts-text  contacts-text--form">Заполните анкету,<br> и мы свяжемся с Вами очень быстро :)</p>
                     <form action="https://formspree.io/asalisinasa@gmail.com" method="POST">
                         <!-- <input type="hidden" name="_next" value="//site.io/thanks.html"/> -->
-                        <input class="contacts-text-field" type="text" name="name" placeholder="Ваше имя" id="name" value="" required>
+                        <input class="contacts-text-field" type="text" name="first-name" placeholder="Имя" id="first-name" value="" required>
+                        <input class="contacts-text-field" type="text" name="second-name" placeholder="Фамилия" id="second-name" value="" required>
                         <input class="contacts-text-field" type="email" name="_replyto" placeholder="E-mail" id="email" value="" required>
-                        <textarea class="contacts-text-field whole" cols="50" rows="10" name="text" placeholder="Текст письма" id="text" required></textarea>
+                        <input class="contacts-text-field" type="text" name="tel" placeholder="Телефон" id="email" value="">
+                        <input class="contacts-text-field full" type="text" name="partner" placeholder="ФИО «Родного соседа», рекомендовавшего Вам проект" id="email" value="">
+                        <textarea class="contacts-text-field whole" cols="50" rows="10" name="text" placeholder="Комментарий" id="text" required></textarea>
                         <input class="contacts-btn card-btn" type="submit" value="Присоединиться">
                     </form>
                 </div>
