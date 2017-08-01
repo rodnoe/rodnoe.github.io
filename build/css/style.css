@@ -5473,7 +5473,7 @@ section:after {
   display: block;
   width: 100%;
   max-width: 640px;
-  margin-bottom: 50px; }
+  margin-bottom: 120px; }
 
 #activity {
   background-image: url(/img/bg-3.jpg);
@@ -5663,7 +5663,7 @@ section:after {
 .welcome-area__text {
   background-color: #ede99d;
   background-color: rgba(237, 233, 157, 0.7);
-  max-width: 500px;
+  max-width: 525px;
   margin: 0 auto 50px;
   padding: 50px 24px 55px;
   font-size: 21px;
@@ -5700,12 +5700,13 @@ section:after {
 
 .card {
   position: relative;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 0 11px 16px;
   background-color: rgba(0, 0, 0, 0.2);
   color: #fff;
-  font-family: "Roboto Condensed", "Arial", "Helvetica", sans-serif; }
+  font-family: "Roboto Condensed", "Arial", "Helvetica", sans-serif;
+  transform: translateY(-20px); }
   .card:after {
     content: "";
     display: table;
@@ -5732,6 +5733,7 @@ section:after {
   text-transform: uppercase; }
 
 .card-text {
+  margin-bottom: 16px;
   font-weight: 300; }
 
 .card-inner {
@@ -5753,6 +5755,12 @@ section:after {
   color: #083600;
   text-transform: uppercase;
   transform: translateX(23px); }
+
+.card-list {
+  margin-bottom: 16px;
+  font-weight: 300; }
+  .card-list li {
+    margin-bottom: 8px; }
 
 .card--service::before {
   top: -50px;
