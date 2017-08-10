@@ -48,14 +48,13 @@ img{
     display: inline-block;
     vertical-align: middle;
     line-height: 1;
-    color: $green;
-    border-bottom: 1px solid $green;
+    color: #d4da7f;
+    text-decoration: underline;
 }
 .link:hover,
 .link:active {
     opacity: 0.8;
-    text-decoration: none;
-    color: $green;
+    color: #d4da7f;
 }
 
 section {

@@ -11,6 +11,7 @@
     display: inline;
     float: left;
     width: 100%;
+    text-align: center;
 }
 .contacts-title {
     font-family: $font;
@@ -90,6 +91,6 @@
   color: $color-text;
   text-align: center;
   margin: 0 auto;
-  display: block;
+  display: inline-block;
   font-family: $font;
 }
