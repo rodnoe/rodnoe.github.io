@@ -5519,25 +5519,51 @@ section:after {
 
 #header {
   display: flex;
+  flex-direction: column;
   width: 100%;
   min-height: 800px;
   max-height: 70vh;
   background: #57524f url(/img/heading-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 100vh; }
+  min-height: 727px;
+  font-family: "Roboto Condensed", "Arial", "Helvetica", sans-serif; }
+  #header .card-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 25px;
+    background-size: 100% 100%;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #fff;
+    font-family: "Roboto Condensed", "Arial", "Helvetica", sans-serif; }
 
 .header-title img {
   max-width: 100%;
   display: block;
   margin: 0 auto; }
 
-.header-content {
-  height: 100%;
-  margin: auto;
-  padding: 100px 140px 140px;
+.header-text {
+  max-width: 420px;
+  margin: 20px auto 0;
+  font-size: 32px;
+  font-weight: 600;
   text-align: center;
-  width: 100%; }
+  color: #083600; }
+
+.header-content {
+  position: relative;
+  padding: 70px 0;
+  margin: auto 70px;
+  width: calc(100% - 140px);
+  background-color: rgba(237, 233, 157, 0.41);
+  font-size: 32px;
+  color: #535353;
+  text-align: center; }
 
 .header-content h2 {
   font-family: 'Roboto Slab', serif;
@@ -5668,7 +5694,7 @@ section:after {
   font-size: 21px;
   line-height: 1.6;
   text-align: center;
-  color: #535353; }
+  color: #2d3e2d; }
 
 .welcome-area__footer {
   position: relative;
